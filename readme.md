@@ -1,9 +1,11 @@
-# AmpTrade Services
+# AmpTrade 
+Amptrade allows users to connect, trade, replicate/copy trades to multiple brokers simultaneously. 
 
-This document outlines the various services and their respective URLs for development and production environments.
-
-## Website (amptrade-web)
-| Environment | URL |
-|------------|-----|
+### Notes
+This is a monorepo containing the following services:
+- amptrade-web: The website frontend
 | Development | `localhost:5178` |
-| Production | [www.amptrade.in](https://www.amptrade.in) |
+- amptrade-api: The backend API
+| Development | `localhost:3089` |
+- amptrade-websocket: The websocket service for real-time data
+| Development | `localhost:8789 to localhost:8795` |
